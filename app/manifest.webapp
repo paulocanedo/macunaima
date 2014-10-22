@@ -1,0 +1,15 @@
+{
+  "name": "Macunaima",
+  "description": "A user interface UI for remote control musics in a media center like Kodi or VLC",
+  "launch_path": "/index.htm",
+  "icons": {
+    "128": "/images/icon-128.png",
+    "256": "/images/icon-256.png"
+  },
+  "developer": {
+    "name": "Paulo Canedo",
+    "url": "http://www.paulocanedo.com.br"
+  },
+  "default_locale": "en",
+  "type": "privileged"
+}
