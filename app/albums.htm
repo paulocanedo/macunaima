@@ -1,0 +1,18 @@
+<div class="scrollable">
+  <div class="list-group scrollable-content">
+
+    <ul class="m-list-nostyle">
+      <li class="m-2column m-album-item">
+        <a class="list-group-item" href="#/" ng-repeat="album in albums">
+          <img ng-src="{{album.coverArt}}" />
+          <div class="m-album-description"><h6>{{album.name}}</h6></div>
+        </a>
+      </li>
+    </ul>
+    <!-- <a class="list-group-item m-2column" href="#/" ng-repeat="album in albums">
+      <img ng-src="{{album.coverArt}}" />
+      <h6>{{album.name}}</h6>
+    </a> -->
+
+  </div>
+</div>
