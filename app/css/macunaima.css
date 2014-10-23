@@ -1,14 +1,8 @@
 .m-2column {
-  -moz-column-count: 2;
   -moz-column-gap: 1px;
   -moz-column-rule: 1px solid #DDD;
-
-  @media (orientation:portrait) {
-    column-count: 2;
-  }
-  @media (orientation:landscape) {
-    column-count: 3;
-  }
+  -moz-column-count: 2;
+  column-count: 2;
   
   column-gap: 1px;
   column-rule: 1px solid #DDD;
@@ -16,6 +10,13 @@
   /*display: grid;
   grid-template-rows: auto;
   grid-template-columns: auto auto;*/
+}
+
+@media screen and (orientation:landscape) {
+  .m-2column {
+    -moz-column-count: 3;
+    column-count: 3;
+  }
 }
 
 .m-list-nostyle {
