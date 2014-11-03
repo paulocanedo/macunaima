@@ -1,0 +1,15 @@
+<div class="scrollable">
+  <div class="list-group scrollable-content">
+  	<ul class="m-list-nostyle">
+    	<li class="m-list-title list-group-item" href="#/" ng-repeat="album in albums">
+    		<a href="#/album/{{album.album_name}}" class="m-list-title">
+    			{{album.album_name}}
+    		</a>
+
+    		<a class="list-group-item" href="#/" ng-repeat="music in album.musics">
+    			{{music.title}}
+    		</a>
+	    </li>
+  	</ul>
+  </div>
+</div>
