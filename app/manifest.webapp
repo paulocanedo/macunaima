@@ -11,5 +11,6 @@
     "url": "http://www.paulocanedo.com.br"
   },
   "default_locale": "en",
-  "type": "privileged"
+  "type": "privileged",
+  "systemXHR": {}
 }

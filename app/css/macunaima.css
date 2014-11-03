@@ -34,3 +34,12 @@
   height: 2em;
   overflow: hidden;
 }
+
+.m-album-coverart {
+  height: 128px;
+  width: 128px;
+}
+
+.m-list-title {
+  color: #003366;
+}

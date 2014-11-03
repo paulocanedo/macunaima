@@ -28,7 +28,7 @@ module.exports = function(grunt) {
         banner: '<%= banner %>'
       },
       dist: {
-        src: ['lib/Command.js', 'lib/Player.js'],
+        src: ['lib/DataService.js'],
         dest: 'app/<%= pkg.name %>.min.js'
       }
     },
@@ -78,6 +78,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.file.copy('bower_components/angularjs/angular.min.js', 'app/lib/js/angular.min.js');
+  grunt.file.copy('bower_components/angular-touch/angular-touch.min.js', 'app/lib/js/angular-touch.min.js');
   grunt.file.copy('bower_components/mobile-angular-ui/dist/js/mobile-angular-ui.min.js', 'app/lib/js/mobile-angular-ui.min.js');
   grunt.file.copy('bower_components/mobile-angular-ui/dist/css/mobile-angular-ui-base.min.css', 'app/lib/css/mobile-angular-ui-base.min.css');
   grunt.file.copy('bower_components/mobile-angular-ui/dist/css/mobile-angular-ui-hover.min.css', 'app/lib/css/mobile-angular-ui-hover.min.css');

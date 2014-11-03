@@ -3,8 +3,8 @@
 
     <ul class="m-list-nostyle">
       <li class="m-2column m-album-item">
-        <a class="list-group-item" href="#/" ng-repeat="album in albums">
-          <img ng-src="{{album.coverArt}}" />
+        <a class="list-group-item" href="#/album/{{album.name}}" ng-repeat="album in albums">
+          <img class="m-album-coverart" ng-src="{{album.coverArt}}" />
           <div class="m-album-description"><h6>{{album.name}}</h6></div>
         </a>
       </li>
