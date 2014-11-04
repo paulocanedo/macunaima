@@ -1,15 +1,11 @@
 .m-2column {
+  -moz-column-count: 2;
   -moz-column-gap: 1px;
   -moz-column-rule: 1px solid #DDD;
-  -moz-column-count: 2;
+
   column-count: 2;
-  
   column-gap: 1px;
   column-rule: 1px solid #DDD;
-  /*display: table-cell;*/
-  /*display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: auto auto;*/
 }
 
 @media screen and (orientation:landscape) {
@@ -42,4 +38,58 @@
 
 .m-list-title {
   color: #003366;
+}
+
+.m-playing_now_content {
+  background-color: #ffffff;
+  height: 100%;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.m-playing_description {
+  background-color: rgba(255,255,255,0.5);
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.m-playing_time_bar_label {
+  background-color: #ffffff;
+  width: 90%;
+  height: 1.5em;
+  bottom: 1.5em;
+  left: 5%;
+  position: absolute;
+  text-align: right;
+}
+
+.m-playing_time_bar {
+  background-color: #cecece;
+  width: 90%;
+  height: 1em;
+  bottom: 0.5em;
+  left: 5%;
+  position: absolute;
+}
+
+.m-playing_time_bar_inside {
+  background-color: #003366;
+  height: 100%;
+}
+
+.playing_now_label {
+  padding-left: 5%;
+  color: #003366;
+}
+
+.m-title_label {
+  color: #002288;
+}
+
+.m-display-block {
+  display: block;
 }
