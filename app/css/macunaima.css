@@ -29,6 +29,14 @@
 .m-album-description {
   height: 2em;
   overflow: hidden;
+  display: block;
+  position: relative;
+}
+
+.m-album-square {
+  width: 40vw;
+  height: 40vw;
+  margin-bottom: 1.7em;
 }
 
 .m-album-coverart {
@@ -92,4 +100,8 @@
 
 .m-display-block {
   display: block;
+}
+
+.m-float_right {
+  float: right;
 }
